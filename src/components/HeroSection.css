@@ -1,0 +1,44 @@
+.hero-section {
+  margin: 0px;
+  padding: 17.5rem 15rem;
+  display: flex;
+  gap: 3.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1665440296644-402351e26e92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3442&q=80");
+}
+.hero-section .content {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+.hero-section .stylized {
+  font-weight: 500;
+  font-size: 2em;
+  /* surface/sunrise */
+
+  background: linear-gradient(
+    26.26deg,
+    #f3beda 0%,
+    #e79d49 29.22%,
+    #ff7983 54.26%,
+    #2b01b2 83.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero-section .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  padding: 0px;
+}
+.hero-section .buttons div {
+  width: 15rem;
+  box-sizing: border-box;
+}

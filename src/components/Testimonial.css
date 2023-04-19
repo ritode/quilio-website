@@ -1,0 +1,96 @@
+.testimonials {
+  margin: 6.25rem 15rem;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 6.25rem;
+  gap: 5rem;
+
+  /* surface/secondary */
+
+  background: #000a1a;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+}
+.testimonials .tabs {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  border-bottom: 3px solid #efefef;
+  flex: none;
+  align-self: stretch;
+}
+.tabs .tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 60px;
+  gap: 8px;
+
+  border-radius: 8px 8px 0px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.tabs .tab.active {
+  box-sizing: border-box;
+
+  background: rgba(45, 114, 225, 0.1);
+
+  border-bottom: 12px solid #2d72e1;
+
+  margin-bottom: -3px;
+}
+.testimonials .content {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Proxima Nova";
+}
+.testimonials .user {
+  /* display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+font-size: 2rem;
+column-gap: 1.5rem; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 1.25rem;
+
+  flex: none;
+
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 44px;
+  text-align: center;
+}
+.testimonials .user img {
+  width: 5rem;
+  height: 5rem;
+}

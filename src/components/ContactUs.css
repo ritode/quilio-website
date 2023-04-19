@@ -1,0 +1,130 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem 15rem;
+  gap: 5rem;
+
+  /* surface/secondary */
+
+  background: #000a1a;
+}
+.contact-us .line {
+  width: 250px;
+  height: 5px;
+
+  /* primary/400-main */
+
+  background: #9c49e7;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.contact-us .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.25rem 0px;
+  gap: 5rem;
+}
+.contact-us .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5rem;
+  gap: 2rem;
+
+  /* surface/primary */
+
+  background: #291f33;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.contact-us .content .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
+.header .heading {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  /* surface/sunrise */
+
+  background: linear-gradient(
+    26.26deg,
+    #f3beda 0%,
+    #e79d49 29.22%,
+    #ff7983 54.26%,
+    #2b01b2 83.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.contact-us .content .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
+.contact-us .content .text p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+
+  flex: none;
+  text-align: left;
+}
+
+.contact-us .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5rem;
+  gap: 2rem;
+
+  /* surface/primary */
+
+  background: #291f33;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+}
+.contact-us .form .top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
