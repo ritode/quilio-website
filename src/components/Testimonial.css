@@ -30,6 +30,7 @@
   border-bottom: 3px solid #efefef;
   flex: none;
   align-self: stretch;
+  overflow: hidden;
 }
 .tabs .tab {
   display: flex;

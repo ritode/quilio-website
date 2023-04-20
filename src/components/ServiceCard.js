@@ -7,8 +7,8 @@ export default function ServicesCard({ data, index }) {
         <div className="line-break" />
         <p>{data.content}</p>
         <div className="points">
-          {data.points.map((data) => (
-            <div className="point">
+          {data.points.map((data, i) => (
+            <div className="point" key={i}>
               <img src="/images/arrow.png" alt="" />
               <p>{data}</p>
             </div>

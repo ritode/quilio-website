@@ -1,5 +1,5 @@
 .tech-stacks {
-  /* margin: 6.25rem 15rem; */
+  margin: 6.25rem 15rem;
 
   padding: 4em 6.25rem;
   background: #000a1a;
@@ -39,10 +39,10 @@
   padding: 0px;
   gap: 6.25rem;
   width: 70%;
-  overflow: scroll;
+  overflow-x: scroll;
   /* Inside auto layout */
-
-  flex: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .tech .tech-stack {

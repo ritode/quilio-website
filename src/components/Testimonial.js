@@ -12,6 +12,7 @@ export default function Testimonial() {
       <div className="tabs">
         {TESTIMONIALS.map((data, i) => (
           <div
+            key={i}
             className={`tab ${activeTab === i ? "active" : ""}`}
             onClick={() => handleClick(i)}
           >

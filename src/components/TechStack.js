@@ -1,20 +1,44 @@
+import { useRef } from "react";
 import { TECH_STACK } from "../siteContent";
 import "./TechStack.css";
 export default function TechStack() {
+  const stackRef = useRef(null);
+  const handleScroll = (direction) => {
+    const scrollAmount = direction === "left" ? -200 : 200;
+    const element = stackRef.current;
+    element.scrollTo({
+      left: element.scrollLeft + scrollAmount,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="tech-stacks">
       <h3>Our Tech Stack</h3>
       <div className="tech-container">
-        <img className="scroll-button" src="/images/nav-arrow<.png" alt="" />
-        <div className="tech">
-          {TECH_STACK.map((data) => (
-            <div className="tech-stack">
+        <img
+          className="scroll-button-up"
+          src="/images/nav-arrow<.png"
+          alt=""
+          onClick={() => {
+            handleScroll("left");
+          }}
+        />
+        <div className="tech" ref={stackRef}>
+          {TECH_STACK.map((data, i) => (
+            <div className="tech-stack" key={i}>
               <img src={data.image} alt="" />
               <p className="st3">{data.title}</p>
             </div>
           ))}
         </div>
-        <img className="scroll-button" src="/images/nav-arrow>.png" alt="" />
+        <img
+          className="scroll-button-down"
+          src="/images/nav-arrow>.png"
+          alt=""
+          onClick={() => {
+            handleScroll("right");
+          }}
+        />
       </div>
     </div>
   );

@@ -51,14 +51,14 @@
   align-self: stretch;
   flex-grow: 1;
 }
-.contact-us .content .header {
+.contact-us .content .head {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 2rem;
 }
-.header .heading {
+.head .heading {
   font-family: "Avenir Next";
   font-style: normal;
   font-weight: 500;
@@ -108,7 +108,7 @@
 .contact-us .form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   padding: 2.5rem;
   gap: 2rem;
 
@@ -125,6 +125,79 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 0px;
   gap: 2rem;
+}
+.contact-us .form .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0px;
+  gap: 1rem;
+}
+.contact-us .form .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 2rem;
+}
+.contact-us .form .p24 {
+  text-align: left;
+}
+.contact-us .form .input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+
+  /* surface/secondary */
+
+  background: #000a1a;
+  /* primary/400-main */
+
+  border: 1px solid #9c49e7;
+  border-radius: 4px;
+}
+.contact-us .form .message input {
+  height: 120px;
+}
+.contact-us .form .input-terms {
+  display: flex;
+  gap: 0.5rem;
+}
+.contact-us .form .terms {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.contact-us ::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #595959;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  /* Internet Explorer 10-11 */
+  color: #595959;
+}
+
+::-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  /* Microsoft Edge */
+  color: #595959;
 }

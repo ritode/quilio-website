@@ -3,7 +3,7 @@ export default function ContactUs() {
   return (
     <div className="contact-us">
       <div className="content">
-        <div className="header">
+        <div className="head">
           <p className="heading">
             Looking forward to steal your cash you capitalists
           </p>
@@ -21,25 +21,71 @@ export default function ContactUs() {
       </div>
       <form action="" className="form">
         <div className="top">
-          <label for="name">Name *</label>
-          <br />
-          <input type="text" id="name" name="name" value="John" />
-          <label for="email">Email *</label>
-          <input type="text" id="email" name="email" value="John@xyz.com" />
+          <div className="input-container">
+            <label className="p24" for="name">
+              Name *
+            </label>
+            <input
+              className="input"
+              type="text"
+              id="name"
+              name="name"
+              value=""
+              placeholder="John"
+            />
+          </div>
+          <div className="input-container">
+            <label className="p24" for="email">
+              Email *
+            </label>
+            <input
+              className="input"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="John@xyz.com"
+              value=""
+            />
+          </div>
         </div>
-        <label for="phone">Phone</label>
-        <input type="number" id="phone" name="phone" value="1234567890" />
-        <label for="message">Message</label>
-        <input
-          type="text"
-          id="message"
-          name="message"
-          value="I want my duck sucked"
-        />
+        <div className="phone input-container">
+          <label className="p24" for="phone">
+            Phone
+          </label>
+          <input
+            className="input"
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="1234567890"
+            value=""
+          />
+        </div>
+        <div className="message input-container">
+          <label className="p24" for="message">
+            Message
+          </label>
+          <input
+            type="text"
+            id="message"
+            name="message"
+            placeholder="I want my duck sucked"
+            value=""
+            className="input"
+          />
+        </div>
         <div className="bottom">
-          <input type="checkbox" id="terms" />
-          <label for="terms">I agree with terms</label>
-          <input type="submit" value="Submit" />
+          <div className="input-terms">
+            <input type="checkbox" id="terms" className="input" />
+            <label className="terms" for="terms">
+              I agree with <a href="">terms</a>
+            </label>
+          </div>
+          <input
+            className="primary-button"
+            type="submit"
+            value="Send Message"
+          />
         </div>
       </form>
     </div>

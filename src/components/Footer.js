@@ -4,13 +4,13 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-content">
         <img src="/images/logo.png" alt="" />
-        <div className="menu-1">
+        <div className="menu">
           <p className="st3">Services</p>
           <p>Bug Tracker</p>
           <p>VST Development</p>
           <p>Beta Testing</p>
         </div>
-        <div className="menu-2">
+        <div className="menu">
           <p className="st3">Company</p>
           <p>About</p>
           <p>contact Us</p>
@@ -18,6 +18,11 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <p>© 2023 Quilio Ltd. | Privacy | Terms | Sitemap </p>
+        <div className="socials">
+          <img src="/images/linkedin-logo.png" alt="" />
+          <img src="/images/linkedin-logo.png" alt="" />
+          <img src="/images/linkedin-logo.png" alt="" />
+        </div>
       </div>
     </div>
   );

@@ -8,16 +8,21 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   /* Scrollbar */
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 .primary-button {
   background: #9c49e7;
+  color: #efefef;
   font-size: 20px;
   padding: 0.75rem 2rem;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,4 +67,11 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
+}
+.p24 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
 }
