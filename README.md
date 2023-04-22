@@ -14,11 +14,15 @@ https://git-scm.com/downloads
 
 ## Steps
 
-git clone <repo>
-Open repo in VS Code
-Open Terminal in VS Code
-<npm install>
-<npm start>
+### git clone
+
+### Open repo in VS Code
+
+### Open Terminal in VS Code
+
+### `npm install`
+
+### `npm start`
 
 # Getting Started with Create React App
 
