@@ -1,3 +1,25 @@
+# Steps to run
+
+## Install NodeJS
+
+https://nodejs.org/en
+
+## Install VSCode
+
+https://code.visualstudio.com/
+
+## Install Git
+
+https://git-scm.com/downloads
+
+## Steps
+
+git clone <repo>
+Open repo in VS Code
+Open Terminal in VS Code
+<npm install>
+<npm start>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
