@@ -68,6 +68,13 @@ p {
   font-weight: 500;
   font-size: 2rem;
 }
+.p16 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
 .p20 {
   font-family: "Poppins";
   font-style: normal;

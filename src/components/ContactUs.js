@@ -10,10 +10,8 @@ export default function ContactUs() {
           <div className="line" />
         </div>
         <div className="text">
-          <p className="content">
-            Provide exceptional happy endings within 24hrs.
-          </p>
-          <p className="content">
+          <p className="p24">Provide exceptional happy endings within 24hrs.</p>
+          <p className="p24">
             No wonder you wanna do business with some cool dudes with some sicc
             taste in music and art.
           </p>
@@ -21,7 +19,7 @@ export default function ContactUs() {
       </div>
       <form action="" className="form">
         <div className="top">
-          <div className="input-container">
+          <div className="input-container sm">
             <label className="p24" for="name">
               Name *
             </label>
@@ -34,7 +32,7 @@ export default function ContactUs() {
               placeholder="John"
             />
           </div>
-          <div className="input-container">
+          <div className="input-container sm">
             <label className="p24" for="email">
               Email *
             </label>
@@ -77,7 +75,7 @@ export default function ContactUs() {
         <div className="bottom">
           <div className="input-terms">
             <input type="checkbox" id="terms" className="input" />
-            <label className="terms" for="terms">
+            <label className="p16" for="terms">
               I agree with <a href="">terms</a>
             </label>
           </div>
