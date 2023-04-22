@@ -34,7 +34,7 @@
 .tech-container .tech {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0px;
   gap: 6.25rem;
@@ -44,7 +44,6 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-
 .tech .tech-stack {
   display: flex;
   flex-direction: column;

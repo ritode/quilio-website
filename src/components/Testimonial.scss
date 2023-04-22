@@ -18,6 +18,29 @@
   /* Inside auto layout */
 
   flex: none;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  // border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  border-image-source: linear-gradient(
+    359.7deg,
+    #2a40af 0.26%,
+    #2d72e1 60.36%,
+    #64b4ff 99.74%
+  );
+
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   z-index: -1;
+  //   margin: -$border; /* !importanté */
+  //   border-radius: inherit; /* !importanté */
+  //   background: linear-gradient(to right, red, orange);
+  // }
 }
 .testimonials .tabs {
   box-sizing: border-box;
@@ -58,14 +81,14 @@
   margin-bottom: -3px;
 }
 .testimonials .content {
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 500;
-  font-size: 34px;
-  line-height: 34px;
+  font-size: 32px;
+  line-height: 48px;
   display: flex;
   align-items: center;
   text-align: center;
-  font-family: "Proxima Nova";
 }
 .testimonials .user {
   /* display: flex;

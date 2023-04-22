@@ -1,4 +1,4 @@
-import "./Testimonial.css";
+import "./Testimonial.scss";
 import { TESTIMONIALS } from "../siteContent";
 import { useState } from "react";
 export default function Testimonial() {

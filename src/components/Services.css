@@ -53,13 +53,8 @@
   flex: none;
   box-sizing: border-box;
 }
-.services-card h3 {
-  font-size: 2.5rem;
-}
-.services-card p {
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+.services-card .p24 {
+  color: #bfbfbf;
 }
 .services-card .points {
   display: grid;

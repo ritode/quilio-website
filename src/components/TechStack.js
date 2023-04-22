@@ -4,7 +4,7 @@ import "./TechStack.css";
 export default function TechStack() {
   const stackRef = useRef(null);
   const handleScroll = (direction) => {
-    const scrollAmount = direction === "left" ? -200 : 200;
+    const scrollAmount = direction === "left" ? -320 : 320;
     const element = stackRef.current;
     element.scrollTo({
       left: element.scrollLeft + scrollAmount,
