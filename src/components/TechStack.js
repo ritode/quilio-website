@@ -1,13 +1,22 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { TECH_STACK } from "../siteContent";
 import "./TechStack.css";
 export default function TechStack() {
   const stackRef = useRef(null);
+  const [leftActive, setLeftActive] = useState(false);
+  const [rightActive, setRightActive] = useState(true);
   const handleScroll = (direction) => {
-    const scrollAmount = direction === "left" ? -320 : 320;
     const element = stackRef.current;
+    const scrollAmount =
+      direction === "left"
+        ? element.scrollLeft - 320
+        : element.scrollLeft + 320;
+    if (scrollAmount > 0) setLeftActive(true);
+    else setLeftActive(false);
+    if (scrollAmount > 1280) setRightActive(false);
+    else setRightActive(true);
     element.scrollTo({
-      left: element.scrollLeft + scrollAmount,
+      left: scrollAmount,
       behavior: "smooth",
     });
   };
@@ -19,6 +28,7 @@ export default function TechStack() {
           className="scroll-button-up"
           src="/images/nav-arrow<.png"
           alt=""
+          style={leftActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
             handleScroll("left");
           }}
@@ -35,6 +45,7 @@ export default function TechStack() {
           className="scroll-button-down"
           src="/images/nav-arrow>.png"
           alt=""
+          style={rightActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
             handleScroll("right");
           }}

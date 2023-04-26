@@ -6,17 +6,23 @@ import Testimonial from "./components/Testimonial";
 import TechStack from "./components/TechStack";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 function App() {
+  const [scrollToContact, setScrollToContact] = useState(false);
+
+  const handleContactClick = () => {
+    setScrollToContact(true);
+  };
   return (
     <div className="App">
-      <Header />
-      <HeroSection />
+      <Header onContactClick={handleContactClick} />
+      <HeroSection onContactClick={handleContactClick} />
       <h2>What we are known for...</h2>
       <Services />
       <Testimonial />
       <TechStack />
-      <ContactUs />
+      <ContactUs scrollToContact={scrollToContact} />
       <Footer />
     </div>
   );

@@ -4,9 +4,7 @@ export const SERVICES_CARD = [
     content:
       "Now this is what i call the smart shit. Neuro means brain, engineering means messing and rebuilding things. So you take the brain and rebuild it into your beep boop machine programme and voila!",
     points: [
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
+      "Dummy Dum Dum Dummy Dum Dum Dummy Dum Dum",
       "Dummy Dum Dum",
       "Dummy Dum Dum",
       "Dummy Dum Dum",
@@ -17,14 +15,7 @@ export const SERVICES_CARD = [
     title: "Neuro-Engineering",
     content:
       "Some audio tomfoolery going on here. I got no idea what but i think it’s mostly those wavy things going into the beep boop machine to produce music. Have a holler mate!",
-    points: [
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-    ],
+    points: ["Dummy Dum Dum", "Dummy Dum Dum", "Dummy Dum Dum"],
     image: "/images/neuro.png",
   },
   {
@@ -32,8 +23,6 @@ export const SERVICES_CARD = [
     content:
       "Everyone ask what is AI. But no one ask how is AI. Using AI day by day without considering it’s mental stability is tiring. To counter this we apply it on our beep boop machine in small small portions according to taste.",
     points: [
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
       "Dummy Dum Dum",
       "Dummy Dum Dum",
       "Dummy Dum Dum",

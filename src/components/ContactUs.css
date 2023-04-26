@@ -1,7 +1,12 @@
+.contact-us-banner {
+  width: 100%;
+  background-color: #000a1a;
+}
 .contact-us {
   display: flex;
   flex-direction: row;
-  padding: 5rem 15rem;
+  margin: 5rem auto;
+  width: 75%;
   background: #000a1a;
   gap: 5rem;
 }
@@ -76,7 +81,8 @@
   text-align: left;
 }
 .contact-us .form .input {
-  height: 2.875rem;
+  /* height: 2.875rem; */
+  padding: 0.9rem 0.25rem 0.8rem 0.25rem;
   /* surface/secondary */
 
   background: #000a1a;
@@ -84,8 +90,9 @@
 
   border: 1px solid #9c49e7;
   border-radius: 4px;
+  color: #efefef;
 }
-.contact-us .form .message input {
+.contact-us .form .message .input {
   height: 120px;
 }
 .contact-us .form .input-terms {

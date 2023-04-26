@@ -1,5 +1,8 @@
 import "./HeroSection.css";
-export default function HeroSection() {
+export default function HeroSection({ onContactClick }) {
+  const handleButtonClick = () => {
+    onContactClick();
+  };
   return (
     <div className="hero-section">
       {/* <img src={"/images/hero-bg-image.png"} className="bg-img"/> */}
@@ -11,7 +14,9 @@ export default function HeroSection() {
         </p>
       </div>
       <div className="buttons">
-        <div className="primary-button">Contact Us</div>
+        <div className="primary-button" onClick={handleButtonClick}>
+          Contact Us
+        </div>
         <div className="secondary-button">Testimonials</div>
       </div>
     </div>

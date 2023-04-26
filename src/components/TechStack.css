@@ -1,6 +1,7 @@
 .tech-stacks {
-  margin: 6.25rem 15rem;
-
+  width: 75vw;
+  margin: 5rem auto;
+  box-sizing: border-box;
   padding: 4em 6.25rem;
   background: #000a1a;
   border-radius: 20px;

@@ -1,5 +1,9 @@
 import "./Header.css";
-export default function Header() {
+export default function Header({ onContactClick }) {
+  const handleButtonClick = () => {
+    onContactClick();
+  };
+
   return (
     <div className="header">
       <img src="/images/logo.png" alt="" />
@@ -7,7 +11,9 @@ export default function Header() {
         <div className="st3">Services</div>
         <div className="st3">About Us</div>
       </div>
-      <div className="primary-button">Contact Us</div>
+      <div className="primary-button" onClick={handleButtonClick}>
+        Contact Us
+      </div>
     </div>
   );
 }

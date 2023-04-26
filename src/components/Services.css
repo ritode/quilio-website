@@ -1,18 +1,20 @@
 .services {
+  margin-bottom: 6.25rem;
   display: flex;
   flex-flow: column;
   align-items: center;
   /* padding: 6.25rem 15rem; */
-  width: 75vw;
-  margin: auto;
   gap: 12.5rem;
 
   flex: none;
-  /* align-self: stretch; */
+  align-self: stretch;
 }
 
 .services-card {
   display: flex;
+
+  width: 75vw;
+  margin: auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -32,8 +34,8 @@
   margin-left: -5rem;
 }
 .services-card .image {
-  width: 37.5rem;
-  height: 37.5rem;
+  width: 41.667%;
+  height: 41.667%;
   flex: none;
 }
 .services-card .content {
@@ -68,7 +70,12 @@
   align-items: center;
   column-gap: 1rem;
 }
-
+.points .point .p24 {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .services-card .line-break {
   width: 248px;
   height: 5px;
