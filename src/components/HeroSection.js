@@ -1,7 +1,10 @@
 import "./HeroSection.css";
-export default function HeroSection({ onContactClick }) {
-  const handleButtonClick = () => {
+export default function HeroSection({ onContactClick, onTestimonialClick }) {
+  const handleContactButtonClick = () => {
     onContactClick();
+  };
+  const handleTestimonialButtonClick = () => {
+    onTestimonialClick();
   };
   return (
     <div className="hero-section">
@@ -14,10 +17,15 @@ export default function HeroSection({ onContactClick }) {
         </p>
       </div>
       <div className="buttons">
-        <div className="primary-button" onClick={handleButtonClick}>
+        <div className="primary-button" onClick={handleContactButtonClick}>
           Contact Us
         </div>
-        <div className="secondary-button">Testimonials</div>
+        <div
+          className="secondary-button"
+          onClick={handleTestimonialButtonClick}
+        >
+          Testimonials
+        </div>
       </div>
     </div>
   );

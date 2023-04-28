@@ -10,17 +10,24 @@ import { useState } from "react";
 
 function App() {
   const [scrollToContact, setScrollToContact] = useState(false);
+  const [scrollToTestimonial, setScrollToTestimonial] = useState(false);
 
   const handleContactClick = () => {
     setScrollToContact(true);
   };
+  const handleTestimonialClick = () => {
+    setScrollToTestimonial(true);
+  };
   return (
     <div className="App">
       <Header onContactClick={handleContactClick} />
-      <HeroSection onContactClick={handleContactClick} />
+      <HeroSection
+        onContactClick={handleContactClick}
+        onTestimonialClick={handleTestimonialClick}
+      />
       <h2>What we are known for...</h2>
       <Services />
-      <Testimonial />
+      <Testimonial scrollToTestimonial={scrollToTestimonial} />
       <TechStack />
       <ContactUs scrollToContact={scrollToContact} />
       <Footer />
