@@ -70,7 +70,7 @@
   flex-flow: column;
 }
 .contact-us .form .input-container.sm {
-  width: 50%;
+  width: 45%;
 }
 .contact-us .form .bottom {
   display: flex;
@@ -82,7 +82,7 @@
 }
 .contact-us .form .input {
   /* height: 2.875rem; */
-  padding: 0.9rem 0.25rem 0.8rem 0.25rem;
+  padding: 0.9rem 0.25rem 0.8rem 0.5rem;
   /* surface/secondary */
 
   background: #000a1a;

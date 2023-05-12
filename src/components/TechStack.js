@@ -1,11 +1,21 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { TECH_STACK } from "../siteContent";
 import "./TechStack.css";
 export default function TechStack() {
   const stackRef = useRef(null);
   const [leftActive, setLeftActive] = useState(false);
   const [rightActive, setRightActive] = useState(true);
-  const handleScroll = (direction) => {
+
+  const handleScroll = () => {
+    const scrollAmount = stackRef.current.scrollLeft;
+    console.log("Horizontal Scroll Amount:", scrollAmount);
+    if (scrollAmount > 0) setLeftActive(true);
+    else setLeftActive(false);
+    if (scrollAmount > 1280) setRightActive(false);
+    else setRightActive(true);
+  };
+
+  const handleScrollClick = (direction) => {
     const element = stackRef.current;
     const scrollAmount =
       direction === "left"
@@ -30,10 +40,10 @@ export default function TechStack() {
           alt=""
           style={leftActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
-            handleScroll("left");
+            handleScrollClick("left");
           }}
         />
-        <div className="tech" ref={stackRef}>
+        <div className="tech" ref={stackRef} onScroll={handleScroll}>
           {TECH_STACK.map((data, i) => (
             <div className="tech-stack" key={i}>
               <img src={data.image} alt="" />
@@ -47,7 +57,7 @@ export default function TechStack() {
           alt=""
           style={rightActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
-            handleScroll("right");
+            handleScrollClick("right");
           }}
         />
       </div>
