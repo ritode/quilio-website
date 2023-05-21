@@ -16,7 +16,7 @@ export default function HeroSection({ onContactClick, onTestimonialClick }) {
           future
         </p>
       </div>
-      <div className="buttons">
+      {/* <div className="buttons">
         <div className="primary-button" onClick={handleContactButtonClick}>
           Contact Us
         </div>
@@ -26,7 +26,7 @@ export default function HeroSection({ onContactClick, onTestimonialClick }) {
         >
           Testimonials
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
