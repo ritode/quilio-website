@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quilio-website/static/css/main.0ea73ea9.css",
-    "main.js": "/quilio-website/static/js/main.beb3aacf.js",
+    "main.js": "/quilio-website/static/js/main.e83d9bab.js",
     "static/js/787.c03f2191.chunk.js": "/quilio-website/static/js/787.c03f2191.chunk.js",
     "index.html": "/quilio-website/index.html",
     "main.0ea73ea9.css.map": "/quilio-website/static/css/main.0ea73ea9.css.map",
-    "main.beb3aacf.js.map": "/quilio-website/static/js/main.beb3aacf.js.map",
+    "main.e83d9bab.js.map": "/quilio-website/static/js/main.e83d9bab.js.map",
     "787.c03f2191.chunk.js.map": "/quilio-website/static/js/787.c03f2191.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ea73ea9.css",
-    "static/js/main.beb3aacf.js"
+    "static/js/main.e83d9bab.js"
   ]
 }
