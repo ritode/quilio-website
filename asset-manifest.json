@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6aa1213f.css",
-    "main.js": "/static/js/main.eacc3955.js",
-    "static/js/787.c03f2191.chunk.js": "/static/js/787.c03f2191.chunk.js",
-    "index.html": "/index.html",
-    "main.6aa1213f.css.map": "/static/css/main.6aa1213f.css.map",
-    "main.eacc3955.js.map": "/static/js/main.eacc3955.js.map",
-    "787.c03f2191.chunk.js.map": "/static/js/787.c03f2191.chunk.js.map"
+    "main.css": "/quilio-website/static/css/main.0ea73ea9.css",
+    "main.js": "/quilio-website/static/js/main.beb3aacf.js",
+    "static/js/787.c03f2191.chunk.js": "/quilio-website/static/js/787.c03f2191.chunk.js",
+    "index.html": "/quilio-website/index.html",
+    "main.0ea73ea9.css.map": "/quilio-website/static/css/main.0ea73ea9.css.map",
+    "main.beb3aacf.js.map": "/quilio-website/static/js/main.beb3aacf.js.map",
+    "787.c03f2191.chunk.js.map": "/quilio-website/static/js/787.c03f2191.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aa1213f.css",
-    "static/js/main.eacc3955.js"
+    "static/css/main.0ea73ea9.css",
+    "static/js/main.beb3aacf.js"
   ]
 }
