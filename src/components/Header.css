@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0.5rem 10rem; */
-  width: 75%;
-  margin: auto;
+  padding: 0.5rem 10rem;
+  width: 100%;
   height: 6.25rem;
   box-sizing: border-box;
+  background-color: #0d0d0d;
+  position: fixed;
+  z-index: 99;
 }
 .header .primary-button {
 }
