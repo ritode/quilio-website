@@ -9,7 +9,7 @@ export default function ServicesCard({ data, index }) {
         <div className="points">
           {data.points.map((data, i) => (
             <div className="point" key={i}>
-              <img src="/images/arrow.png" alt="" />
+              <img src="./images/arrow.png" alt="" />
               <p className="p24" title={data}>
                 {data}
               </p>

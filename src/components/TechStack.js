@@ -36,7 +36,7 @@ export default function TechStack() {
       <div className="tech-container">
         <img
           className="scroll-button-up"
-          src="/images/nav-arrow<.png"
+          src="./images/nav-arrow<.png"
           alt=""
           style={leftActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
@@ -53,7 +53,7 @@ export default function TechStack() {
         </div>
         <img
           className="scroll-button-down"
-          src="/images/nav-arrow>.png"
+          src="./images/nav-arrow>.png"
           alt=""
           style={rightActive ? { opacity: "1" } : { opacity: "0" }}
           onClick={() => {
