@@ -64,7 +64,7 @@ h1 {
 h2 {
   font-size: 3.5rem;
   font-weight: 700;
-
+  font-family: "Uncut Sans Variable";
   margin: 0px;
   padding: 5rem 0;
 }
@@ -72,7 +72,7 @@ h3 {
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0px;
-  font-family: "Helvetica Neue";
+  font-family: "Uncut Sans Variable";
   font-style: normal;
 }
 p {

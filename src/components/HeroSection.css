@@ -1,6 +1,6 @@
 .hero-section {
   margin: 0px;
-  padding: 17.5rem 15rem;
+  padding: 20rem 15rem;
   display: flex;
   gap: 3.5rem;
   flex-direction: column;
@@ -15,7 +15,7 @@
 }
 .hero-section .stylized {
   font-weight: 500;
-  font-size: 2em;
+  font-size: 2rem;
   /* surface/sunrise */
 
   background: linear-gradient(

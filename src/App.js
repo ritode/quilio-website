@@ -25,7 +25,7 @@ function App() {
         onContactClick={handleContactClick}
         onTestimonialClick={handleTestimonialClick}
       />
-      <h2>What we are known for...</h2>
+      <h2>What We Do</h2>
       <Services />
       <Testimonial scrollToTestimonial={scrollToTestimonial} />
       <TechStack />

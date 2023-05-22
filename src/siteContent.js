@@ -1,32 +1,36 @@
 export const SERVICES_CARD = [
   {
-    title: "Audio Signal Processing",
+    title: "Audio Signal Processing and Plugins",
     content:
-      "Now this is what i call the smart shit. Neuro means brain, engineering means messing and rebuilding things. So you take the brain and rebuild it into your beep boop machine programme and voila!",
+      "In the world of audio, the right tools don’t just make the job easier - the tool is the job. Our team of experienced developers enable you to do what you do without thinking about it.",
     points: [
-      "Dummy Dum Dum Dummy Dum Dum Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
+      "Instrument plugins for musicians",
+      "Mixing and mastering tools for recording engineers",
+      "Audio solutions for businesses",
+      "Speech processing software",
+      "Custom-built audio software",
+      "Noise detection and reduction tools",
     ],
     image: "/images/audio.png",
   },
   {
-    title: "Neuro-Engineering",
+    title: "Neuro-Engineering Solutions",
     content:
-      "Some audio tomfoolery going on here. I got no idea what but i think it’s mostly those wavy things going into the beep boop machine to produce music. Have a holler mate!",
-    points: ["Dummy Dum Dum", "Dummy Dum Dum", "Dummy Dum Dum"],
+      "Scientists have been trying to unlock the secrets of the brain for generations. We’re not saying we’ve succeeded - but we’re pretty close, and our solutions reflect that.",
+    points: ["Custom-designed research tools", "Engineering solutions for research labs", "Assistive technologies for people with neurological disorders"],
     image: "/images/neuro.png",
   },
   {
-    title: "Applied AI",
+    title: "Custom AI Solutions",
     content:
-      "Everyone ask what is AI. But no one ask how is AI. Using AI day by day without considering it’s mental stability is tiring. To counter this we apply it on our beep boop machine in small small portions according to taste.",
+      "AI is both the Holy Grail of the Internet and the sign of End Times. We see it exactly as it is though - a tool to make our lives, and by extension, your lives easier.",
     points: [
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
-      "Dummy Dum Dum",
+      "Customised NLP models for chatbots",
+      "Object detection and recognition models",
+      "Fraud detection models for financial institutions",
+      "Predictive maintenance for industrial equipment",
+      "Recommender systems for E-commerce platforms",
+      "and so on...",
     ],
     image: "/images/ai.png",
   },
