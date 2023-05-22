@@ -11,7 +11,7 @@ export const SERVICES_CARD = [
       "Custom-built audio software",
       "Noise detection and reduction tools",
     ],
-    image: "/images/audio.png",
+    image: "./images/audio.png",
   },
   {
     title: "Neuro-Engineering Solutions",
@@ -32,87 +32,87 @@ export const SERVICES_CARD = [
       "Recommender systems for E-commerce platforms",
       "and so on...",
     ],
-    image: "/images/ai.png",
+    image: "./images/ai.png",
   },
 ];
 export const TESTIMONIALS = [
   {
-    title: "/images/logo.png",
+    title: "./images/logo.png",
     content:
       "They cured my cancer, HIV, syphillis, hepatitis and erectile dysfunction by providing top class services and exceptional endings.",
     user: {
-      image: "/images/person.png",
+      image: "./images/person.png",
       name: "Full name - Job title",
     },
   },
   {
-    title: "/images/logo.png",
+    title: "./images/logo.png",
     content:
       "They cured my cancer, HIV, syphillis, hepatitis and erectile dysfunction by providing top class services and exceptional endings.",
     user: {
-      image: "/images/person.png",
+      image: "./images/person.png",
       name: "Full name - Job title",
     },
   },
   {
-    title: "/images/logo.png",
+    title: "./images/logo.png",
     content:
       "They cured my cancer, HIV, syphillis, hepatitis and erectile dysfunction by providing top class services and exceptional endings.",
     user: {
-      image: "/images/person.png",
+      image: "./images/person.png",
       name: "Full name - Job title",
     },
   },
   {
-    title: "/images/logo.png",
+    title: "./images/logo.png",
     content:
       "They cured my cancer, HIV, syphillis, hepatitis and erectile dysfunction by providing top class services and exceptional endings.",
     user: {
-      image: "/images/person.png",
+      image: "./images/person.png",
       name: "Full name - Job title",
     },
   },
   {
-    title: "/images/logo.png",
+    title: "./images/logo.png",
     content:
       "They cured my cancer, HIV, syphillis, hepatitis and erectile dysfunction by providing top class services and exceptional endings.",
     user: {
-      image: "/images/person.png",
+      image: "./images/person.png",
       name: "Full name - Job title",
     },
   },
 ];
 export const TECH_STACK = [
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 1",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 2",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 3",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 4",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 5",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 6",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 7",
   },
   {
-    image: "/images/stack.png",
+    image: "./images/stack.png",
     title: "Tech 8",
   },
 ];
